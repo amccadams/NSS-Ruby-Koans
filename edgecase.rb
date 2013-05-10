@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+ #!/usr/bin/env ruby
 # -*- ruby -*-
 
 require 'test/unit/assertions'
@@ -489,4 +489,4 @@ end
 END {
   EdgeCase::Koan.command_line(ARGV)
   EdgeCase::ThePath.new.walk
-}
+} 
